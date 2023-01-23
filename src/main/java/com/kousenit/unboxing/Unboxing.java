@@ -19,6 +19,7 @@ public class Unboxing {
 
     private PrinterService printerService = new PrinterService();
 
+    @SuppressWarnings("unused")
     public void setPrinterService(PrinterService printerService) {
         this.printerService = printerService;
     }
